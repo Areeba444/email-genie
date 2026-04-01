@@ -1,12 +1,12 @@
 # 🧞‍♀️ Email Genie – AI-Powered Email Generator
 
-Email Genie is a lightweight web app that uses OpenAI’s GPT API to generate emails based on your selected **tone** and **purpose**. Built in just 2 hours as a rapid MVP.
+Email Genie is a lightweight web app that generates professional emails based on your selected **tone** and **purpose**. Built in just 2 hours as a rapid MVP.
 
 ## ✨ Features
 
-✅ Select email **tone** (Formal, Friendly, Persuasive, etc.)  
-✅ Enter your **purpose** (e.g. “Requesting a collaboration”)  
-✅ Instant email generation using **OpenAI API**  
+✅ Select email **tone** (Formal, Friendly, Persuasive, Casual, Empathetic)  
+✅ Enter your **purpose** (e.g. "Requesting a collaboration")  
+✅ Instant email generation using **Mistral 7B via OpenRouter**  
 ✅ Copy-to-clipboard button  
 ✅ Responsive, clean UI (React + CSS)  
 ✅ Simple Node.js + Express backend
@@ -26,15 +26,15 @@ Email Genie is a lightweight web app that uses OpenAI’s GPT API to generate em
 
 - React (frontend)
 - Node.js + Express (backend)
-- OpenAI GPT-3.5 API
-- Deployed via Vercel (frontend), Render (backend)
+- Mistral 7B via OpenRouter API
+- Deployed via Vercel (frontend)
 
 ---
 
 ## 🚀 Try it live
 
-👉 [Live App Link](https://your-vercel-link.vercel.app)  
-🔗 [GitHub Repo](https://github.com/yourusername/email-genie)
+👉 [Live App](https://email-genie-two.vercel.app/)  
+🔗 [GitHub Repo](https://github.com/Areeba444/email-genie)
 
 ---
 
