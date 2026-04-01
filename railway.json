@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "nodejs",
+    "root": "server",
+    "installCommand": "npm install",
+    "buildCommand": "",
+    "startCommand": "node index.js"
+  }
+}

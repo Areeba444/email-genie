@@ -1,0 +1,146 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Background */
+body {
+  background: linear-gradient(135deg, #d4cdc1 0%, #f0ebe3 100%);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+/* App Container */
+.app {
+  width: 100%;
+  max-width: 850px;
+  padding: 48px 40px;
+  background: #fffdeb;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.12);
+  color: #222;
+  margin-top: 40px;
+  transition: max-width 0.3s ease;
+}
+
+/* Heading */
+h1 {
+  text-align: center;
+  margin-bottom: 32px;
+  color: #5c4033;
+  font-weight: 700;
+  font-size: 2.4rem;
+  letter-spacing: -0.5px;
+}
+
+/* Form Styles */
+.email-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.email-form label {
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.2rem;
+  color: #333;
+  text-align: left;
+  margin-bottom: 4px;
+}
+
+.email-form select,
+.email-form textarea {
+  width: 100%;
+  padding: 14px 18px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  transition: border-color 0.2s ease;
+  resize: vertical;
+  background: #fdfbf4;
+}
+
+.email-form select:focus,
+.email-form textarea:focus {
+  border-color: #5c4033;
+  outline: none;
+}
+
+/* Button */
+.email-form button {
+  width: 100%;
+  padding: 16px 24px;
+  background: #5c4033;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.email-form button:disabled {
+  background: #b8a49b;
+  cursor: not-allowed;
+}
+
+.email-form button:hover:not(:disabled) {
+  background: #4b3228;
+}
+
+/* Result Section */
+.result {
+  margin-top: 36px;
+  padding: 22px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result h2 {
+  margin-bottom: 18px;
+  color: #5c4033;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.result pre {
+  background: #f0f3f8;
+  padding: 18px;
+  border-radius: 10px;
+  white-space: pre-wrap;
+  font-family: Consolas, monospace;
+  color: #222;
+  max-height: 300px;
+  overflow-y: auto;
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.result button {
+  margin-top: 16px;
+  padding: 12px 28px;
+  background: #5c4033;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.result button:hover {
+  background: #4b3228;
+}
